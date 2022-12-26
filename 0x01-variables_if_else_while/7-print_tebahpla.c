@@ -1,19 +1,17 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int ch = 0;
+	char ch;
 
-	while (ch <= 9)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
 		putchar(ch);
-		ch++;
 	}
 	putchar('\n');
 	return (0);
 }
-
