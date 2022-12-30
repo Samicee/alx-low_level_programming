@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -6,7 +7,7 @@
  */
 int main(void)
 {
-	print_alphabet_x10();
+	print_alphabet();
 	return (0);
 }
 /**
@@ -14,7 +15,7 @@ int main(void)
  *
  * Return: (void)
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	int i;
 	char ch;
