@@ -12,12 +12,15 @@ void times_table(void)
 		putchar(',');
 		putchar(' ');
 	}
+	putchar('\n');
 	for (j = 0; j < 9; j++)
 	{
 		count = 0;
 		while(k <= 9)
 		{
 			putchar(count + '0');
+			putchar(',');
+			putchar(' ');
 			if (j == 0)
 				count++;
 			else if (j == 1)
@@ -38,5 +41,6 @@ void times_table(void)
 				count=+9;
 			k++;
 		}
+		putchar('\n');
 	}
 }
