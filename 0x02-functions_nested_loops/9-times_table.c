@@ -21,21 +21,21 @@ void times_table(void)
 			if (j == 0)
 				count++;
 			else if (j == 1)
-				count=+2;
+				count += 2;
 			else if (j == 2)
-				count =+ 3;
+				count +=3;
 			else if (j == 3)
-				count=+ 4;
+				count += 4;
 			else if (j == 4)
-				count=+5;
+				count += 5;
 			else if (j == 5)
-				count=+6;
+				count += 6;
 			else if (j == 6)
-				count=+7;
+				count += 7;
 			else if (j == 7)
-				count=+8;
+				count += 8;
 			else if (j == 8)
-				count=+9;
+				count += 9;
 		}
 		putchar('\n');
 	}
