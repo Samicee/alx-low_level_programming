@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include "main.h"
 /**
  * times_table - prints times table form 0 to 9
