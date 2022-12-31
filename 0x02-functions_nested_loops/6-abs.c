@@ -13,8 +13,8 @@ int _abs(int n)
 	if (n < 0)
 	{
 		i = -n;
-	       _putchar(i + '0');
+		return (i);
 	}
 	else
-		_putchar(n);
+		return (n);
 }
