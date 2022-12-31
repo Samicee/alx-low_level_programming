@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib>
 #include "main.h"
 /**
  * times_table - prints times table form 0 to 9
@@ -18,9 +19,7 @@ void times_table(void)
 		count = 0;
 		while(k <= 9)
 		{
-			putchar(count + '0');
-			putchar(',');
-			putchar(' ');
+			printf("%d, ", count);
 			if (j == 0)
 				count++;
 			else if (j == 1)
