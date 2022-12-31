@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _abs - returns the absolute value of an int
- * @int: argument
+ * @n: argument
  *
  * Return: (int)
  */
