@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * _islower - Entry
+ * _islower - Returns true if the char is lower case
+ *@c: argument
  *
  * Return: 1 || 0
  */
