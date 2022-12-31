@@ -14,7 +14,7 @@ void times_table(void)
 	}
 	for (j = 0; j < 9; j++)
 	{
-		count == 0;
+		count = 0;
 		while(k <= 9)
 		{
 			putchar(count + '0');
@@ -34,7 +34,7 @@ void times_table(void)
 				count=+7;
 			else if (j == 7)
 				count=+8;
-			else (j == 8)
+			else if (j == 8)
 				count=+9;
 			k++;
 		}
