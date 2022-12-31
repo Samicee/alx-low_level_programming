@@ -7,6 +7,7 @@
 void times_table(void)
 {
 	int i, j, k, count;
+
 	for (i = 0; i <= 9; i++)
 	{
 		printf("%d, ", 0);
@@ -23,7 +24,7 @@ void times_table(void)
 			else if (j == 1)
 				count += 2;
 			else if (j == 2)
-				count +=3;
+				count += 3;
 			else if (j == 3)
 				count += 4;
 			else if (j == 4)
