@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * print_sign - checks an int if +ve -ve or zero
  * @n: argument
