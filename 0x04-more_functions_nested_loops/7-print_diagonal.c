@@ -5,17 +5,18 @@
  */
 void print_diagonal(int n)
 {
-	int i, j;
+	int i, j, k;
 
 	j = 0;
-	while (n > 0)
+	k = n;
+	while (k > 0)
 	{
 		for (i = 0; i < j; i++)
 		{
 			_putchar(' ');
 		}
 		_putchar('\\');
-		n--;
+		k--;
 		j++;
 		_putchar('\n');
 	}
