@@ -8,7 +8,7 @@ void print_rev(char *st)
 {
 	int len, i;
 
-	char *start, *end, temp, *temp2;
+	char *start, *end, temp;
 	len = str_len (st);
 	start = st;
 	end = st;
@@ -26,13 +26,7 @@ void print_rev(char *st)
 		start++;
 		end--;
 	}
-	temp2 = st;
-
-	while (*temp2 != *(st + (len - 1)))
-	{
-		_putchar(*temp2);
-		temp2++;
-	}
+	printf("%s", st);
 	_putchar('\n');
 }
 int str_len (char *ptr)
