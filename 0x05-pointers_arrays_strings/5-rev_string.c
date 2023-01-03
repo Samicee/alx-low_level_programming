@@ -3,8 +3,6 @@
 /**
  * rev_string - reverse a string to mirror view
  * @s: pointer parameter
- * str_len - returns the length of the string
- * @ptr: pointer  parameter
  */
 void rev_string(char *s)
 {
@@ -26,9 +24,15 @@ void rev_string(char *s)
 		end--;
 	}
 }
+/**
+ * str_len - returns the length of the string
+ * @ptr: pointer parameter
+ * Return: i
+ */
 int str_len(char *ptr)
 {
 	int i = 0;
+
 	while (*(ptr + i) != '\0')
 		i++;
 	return (i);
