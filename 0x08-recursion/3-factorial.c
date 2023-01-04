@@ -7,15 +7,9 @@
 
 int factorial(int n)
 {
-	int _factorial;
-
 	if (n < 0)
-		_factorial = -1;
-	else if (n == 0)
+		return (-1);
+	if (n == 0)
 		return (1);
-	else
-	{
-		_factorial = n * factorial(n - 1);
-	}
-	return (_factorial);
+	return (n * factorial(n - 1));
 }
